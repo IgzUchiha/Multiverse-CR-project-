@@ -60,8 +60,10 @@
     }
   }
 nav{
-    margin-right: 300px;
-   
+
+    position: relative;
+    right: -30rem;
+    top: 10rem;
 
   }
   .w-100
@@ -70,10 +72,19 @@ nav{
     margin-right: 100px;
   }
   .subheading{
- 
+ position: relative;
+ left: -5rem;
     margin-right:500px ;
     margin-left: 50px;
-    border-radius: 1rem;
+    /* border-radius: solid; */
+    position: relative;
+    right: 10rem; 
+    flex-wrap: wrap;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 255, 0.424);
+    border-radius: -15rem;
+    width: 25rem;
+   
   }
   h1{
     background-image: linear-gradient(rgb(241, 116, 116),red), url("Sidious-le-lightsaber-l.png");
@@ -90,5 +101,36 @@ nav{
     position: relative;
     right: 4rem;
     top: -34px;
+}
+#sidious {
+height: 7rem;
+width:10rem;
+background-image: linear-gradient(rgba(0, 0, 225, 0.424),rgba(0, 0, 225, 0.424)) url("afd.jpg");
+position: relative;
+right: 10rem;
+}
+.social-icons{
+    display: flex;
+    display: inline-block;
+    height: 10rem;
+    width: 10rem;
+    background-color: #495057;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+}
+.social-icons a:last-child {
+    margin-right: 0; }
+    .social-icons a:hover {
+        background-color: #f5203e;
+      }
+      
 
-  }
+      #navbarSupportedContent{
+        position: relative;
+        right: 25rem;
+        top: 10rem;
+      }
