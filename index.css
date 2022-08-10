@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body  {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    margin: 0;
+    overflow: hidden;
+    background-image: url('mustafar-5-facts_TALL.jpg');
+  }
+  
+  .container {
+    display: flex;
+    width: 50vw;
+  }
+  
+  .panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+  }
+  
+  .panel h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+  }
+  
+  .panel.active {
+    flex: 5;
+  }
+  
+  .panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      width: 100vw;
+    }
+  
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5) {
+      display: none;
+    }
+  }
+nav{
+    margin-right: 300px;
+   
+
+  }
+  .w-100
+  {
+    margin-top: -150px;
+    margin-right: 100px;
+  }
+  .subheading{
+ 
+    margin-right:500px ;
+    margin-left: 50px;
+  }
+  
