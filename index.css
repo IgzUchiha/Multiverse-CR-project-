@@ -161,7 +161,7 @@ height: 7rem;
 width:10rem;
 background-image: linear-gradient(rgba(0, 0, 225, 0.424),rgba(0, 0, 225, 0.424)) url("afd.jpg");
 position: relative;
-right: 10rem;
+right: 15rem;
 }
 .social-icons{
   /* display: flex;
@@ -205,10 +205,18 @@ right: 10rem;
       margin-right: 30rem;
       margin-left: 30rem;
       position: relative;
-      top: 10rem;
+      top: 1rem;
 
     }
     .redlightsaber {
       width: 80%;
       color: rgb(241, 116, 116),red;
     }
+ a{
+  position: relative;
+  right: -33rem;
+ }
+ img {
+  position: relative;
+  right: -27rem;
+ }
